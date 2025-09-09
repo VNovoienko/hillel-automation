@@ -1,3 +1,0 @@
-Enter Login
-Enter Password
-Login successful!
