@@ -1,11 +1,11 @@
-function getNumber(num) {
+function countdown(num) {
     console.log(num);
 
     if (num <= 0){
         return;
     }
 
-    getNumber(num - 1);
+    countdown(num - 1);
 }
 
-getNumber(5);
+countdown(5);
