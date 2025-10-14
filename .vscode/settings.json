@@ -1,1 +1,1 @@
-{ "editor.defaultFormatter": null, "editor.formatOnSave": false }
+{ "editor.defaultFormatter": null, "editor.formatOnSave": false, "eslint.enable": false }

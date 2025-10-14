@@ -14,11 +14,11 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 
-console.log(
+console. log(
   "Кількість позитивних чисел:",
   positiveCount,
 );
-console.log(
+console. log(
   "Кількість негативних чисел:",
   negativeCount,
 );
