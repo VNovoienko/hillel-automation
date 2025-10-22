@@ -1,20 +1,18 @@
-function handleNum (number, onEven, onOdd) {
-    if (number % 2 === 0){
-        onEven()
-        return;
-    }
-     
-    onOdd()
+function handleNum(number, onEven, onOdd) {
+  if (number % 2 === 0) {
+    onEven();
+    return;
+  }
+
+  onOdd();
 }
 
 function checkEven() {
-    console.log("Even number");
-
+  console.log("Even number");
 }
 
 function checkOdd() {
-    console.log("Odd number");
+  console.log("Odd number");
 }
 
 handleNum(29, checkEven, checkOdd);
-
